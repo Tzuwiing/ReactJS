@@ -1,5 +1,5 @@
 // coba JSX
-function App() {
+function App2() {
   const title = "Coba JSX";
   const paragraph = "Lorem ipsum dolor sit amet";
   const tema = {
@@ -20,7 +20,7 @@ function App() {
   );
 }
 
-export default App;
+export default App2;
 
 
   
