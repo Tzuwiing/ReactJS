@@ -22,9 +22,17 @@ import Id from "./meeting6/praktek1/racket/element/id.jsx";
 import { Card } from "./meeting6/praktek1/racket/fragment/card.jsx";
 import Racket from "./meeting6/praktek1/racket/racket.jsx";
 import Profile from "./meeting6/praktek2/DataUsers.jsx";
+import Event from "./meeting7/coba/event.jsx";
+import PropsEvent from "./meeting7/coba/propsinevent.jsx";
+import PropsEvent2 from "./meeting7/coba/propsinevent.jsx";
+import EventPropagation from "./meeting7/coba/eventpropagation.jsx";
+import PreventDefaultExample from "./meeting7/praktek/soal1.jsx";
+import EventPropagationExample from "./meeting7/praktek/soal2.jsx";
+import Pesan from "./meeting7/praktek/soal3.jsx";
+import SimpleClick from "./meeting7/praktek/soal4.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Profile />
+    <SimpleClick />
   </StrictMode>
 );
