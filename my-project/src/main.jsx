@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App.jsx";
+
 import App2 from "./meeting2/tugas2.jsx";
 import App3 from "./meeting3/praktek3.jsx";
 import Form from "./meeting4/fragment/form.jsx";
@@ -17,9 +17,14 @@ import KotakPesan from "./meeting5/coba/coba5.jsx";
 import Paket from "./meeting5/praktek/soal2.jsx";
 import Message from "./meeting5/praktek/soal3.jsx";
 import Waktu from "./meeting5/praktek/soal4.jsx";
+import Map from "./meeting6/coba/coba.jsx";
+import Id from "./meeting6/praktek1/racket/element/id.jsx";
+import { Card } from "./meeting6/praktek1/racket/fragment/card.jsx";
+import Racket from "./meeting6/praktek1/racket/racket.jsx";
+import Profile from "./meeting6/praktek2/DataUsers.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Waktu />
+    <Profile />
   </StrictMode>
 );
