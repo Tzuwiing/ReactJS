@@ -30,9 +30,13 @@ import PreventDefaultExample from "./meeting7/praktek/soal1.jsx";
 import EventPropagationExample from "./meeting7/praktek/soal2.jsx";
 import Pesan from "./meeting7/praktek/soal3.jsx";
 import SimpleClick from "./meeting7/praktek/soal4.jsx";
+import Ujian1 from "./coba2ujian/ujian.jsx";
+import Ujian2 from "./coba2ujian/ujian2.jsx";
+import Ujian3 from "./coba2ujian/ujian3.jsx";
+import Ujian4 from "./coba2ujian/ujian4.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <SimpleClick />
+    <Ujian4 />
   </StrictMode>
 );
