@@ -34,9 +34,14 @@ import Ujian1 from "./coba2ujian/ujian.jsx";
 import Ujian2 from "./coba2ujian/ujian2.jsx";
 import Ujian3 from "./coba2ujian/ujian3.jsx";
 import Ujian4 from "./coba2ujian/ujian4.jsx";
+import Numbers from "./meeting8/coba/cobaNumber.jsx";
+import Array2 from "./meeting8/coba/cobaArray.jsx";
+import Counter from "./meeting8/praktek/soal1.jsx";
+import LoginStatus from "./meeting8/praktek/soal2.jsx";
+import SimpleCalculator from "./meeting8/praktek/soal3.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Ujian4 />
+    <SimpleCalculator />
   </StrictMode>
 );
