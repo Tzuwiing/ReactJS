@@ -39,9 +39,12 @@ import Array2 from "./meeting8/coba/cobaArray.jsx";
 import Counter from "./meeting8/praktek/soal1.jsx";
 import LoginStatus from "./meeting8/praktek/soal2.jsx";
 import SimpleCalculator from "./meeting8/praktek/soal3.jsx";
+import SimpleNameList from "./meeting9/coba/cobaArray.jsx";
+import UpdateStateWithMap from "./meeting9/coba/cobaMap.jsx";
+import Produk from "./meeting9/praktek/soal1.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <SimpleCalculator />
+    <Produk />
   </StrictMode>
 );
