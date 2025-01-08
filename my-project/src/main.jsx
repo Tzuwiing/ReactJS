@@ -42,9 +42,12 @@ import SimpleCalculator from "./meeting8/praktek/soal3.jsx";
 import SimpleNameList from "./meeting9/coba/cobaArray.jsx";
 import UpdateStateWithMap from "./meeting9/coba/cobaMap.jsx";
 import Produk from "./meeting9/praktek/soal1.jsx";
+import Nodepency from "./meeting10/coba/nodepedency.jsx";
+import Withdepedency from "./meeting10/coba/usedepedency.jsx";
+import Examples from "./meeting10/coba/nodepedency.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Produk />
+    <Withdepedency />
   </StrictMode>
 );
