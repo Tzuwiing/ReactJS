@@ -45,9 +45,12 @@ import Produk from "./meeting9/praktek/soal1.jsx";
 import Nodepency from "./meeting10/coba/nodepedency.jsx";
 import Withdepedency from "./meeting10/coba/usedepedency.jsx";
 import Examples from "./meeting10/coba/nodepedency.jsx";
+import Soal1 from "./meeting10/praktek/soal1.jsx";
+import CounterLogger from "./meeting10/praktek/soal2.jsx";
+import TextLogger from "./meeting10/praktek/soal3.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Withdepedency />
+    <TextLogger />
   </StrictMode>
 );
