@@ -48,9 +48,13 @@ import Examples from "./meeting10/coba/nodepedency.jsx";
 import Soal1 from "./meeting10/praktek/soal1.jsx";
 import CounterLogger from "./meeting10/praktek/soal2.jsx";
 import TextLogger from "./meeting10/praktek/soal3.jsx";
+import UseOnlineStatus from "./meeting11/coba/cobachooks1.jsx";
+import { StatusBar } from "./meeting11/coba/cobachooks2.jsx";
+import { GantiTema } from "./meeting11/praktek/soal1.jsx";
+import { CekTask } from "./meeting11/praktek/soal2.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <TextLogger />
+    <CekTask />
   </StrictMode>
 );
