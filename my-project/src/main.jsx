@@ -52,9 +52,12 @@ import UseOnlineStatus from "./meeting11/coba/cobachooks1.jsx";
 import { StatusBar } from "./meeting11/coba/cobachooks2.jsx";
 import { GantiTema } from "./meeting11/praktek/soal1.jsx";
 import { CekTask } from "./meeting11/praktek/soal2.jsx";
+import App from "./meeting12/coba/createrbrowser.jsx";
+import App4 from "./meeting12/praktek/soal1.jsx";
+import Part2 from "./meeting12/praktek/praktek3.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <CekTask />
+    <Part2 />
   </StrictMode>
 );
