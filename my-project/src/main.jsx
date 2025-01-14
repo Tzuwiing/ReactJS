@@ -55,9 +55,12 @@ import { CekTask } from "./meeting11/praktek/soal2.jsx";
 import App from "./meeting12/coba/createrbrowser.jsx";
 import App4 from "./meeting12/praktek/soal1.jsx";
 import Part2 from "./meeting12/praktek/praktek3.jsx";
+import App7 from "./meeting12/praktek/praktek2.jsx";
+import App8 from "./meeting12/praktek/praktek2.jsx";
+import App9 from "./meeting12/praktek/praktek2.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Part2 />
+    <App9 />
   </StrictMode>
 );
