@@ -58,9 +58,11 @@ import Part2 from "./meeting12/praktek/praktek3.jsx";
 import App7 from "./meeting12/praktek/praktek2.jsx";
 import App8 from "./meeting12/praktek/praktek2.jsx";
 import App9 from "./meeting12/praktek/praktek2.jsx";
+import CobaAxios2 from "./meeting13/praktek/soal1.jsx";
+import AxiosStore from "./meeting13/praktek/soal2.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App9 />
+    <AxiosStore />
   </StrictMode>
 );
