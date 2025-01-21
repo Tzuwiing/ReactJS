@@ -71,7 +71,7 @@ function ShoppingCard({
           src={src}
           alt={title}
           className="w-full h-60 object-contain rounded-t-lg"
-        />
+        />  
         <div className="py-2 flex-grow">
           <h2 className="text-md font-semibold">{title}</h2>
           <p className="text-gray-700">Harga: Rp.{price}</p>
