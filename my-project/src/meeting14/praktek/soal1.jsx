@@ -5,12 +5,17 @@ import {
   useParams,
 } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { BookList } from "./soal1back";
+import { BookDetail } from "./soal1back";
+import BookList from "./soal1back";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <BookList />,
+  },
+  {
+    path: "/:id",
+    element: <BookDetail />,
   },
 ]);
 

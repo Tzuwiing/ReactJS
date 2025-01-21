@@ -59,13 +59,14 @@ import App7 from "./meeting12/praktek/praktek2.jsx";
 import App8 from "./meeting12/praktek/praktek2.jsx";
 import App9 from "./meeting12/praktek/praktek2.jsx";
 import CobaAxios2 from "./meeting13/praktek/soal1.jsx";
-import AxiosStore from "./meeting13/praktek/soal2.jsx";
+import AxiosStore from "./meeting14/praktek/soal2back.jsx";
 import CobauseParams from "./meeting14/coba/useparams.jsx";
 import PostDetail2 from "./meeting14/coba/rutedinamis.jsx";
 import TokoBuku from "./meeting14/praktek/soal1.jsx";
+import Axioshop from "./meeting14/praktek/soal2.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <AxiosStore />
+    <Axioshop />
   </StrictMode>
 );
