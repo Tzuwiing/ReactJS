@@ -64,9 +64,11 @@ import CobauseParams from "./meeting14/coba/useparams.jsx";
 import PostDetail2 from "./meeting14/coba/rutedinamis.jsx";
 import TokoBuku from "./meeting14/praktek/soal1.jsx";
 import Axioshop from "./meeting14/praktek/soal2.jsx";
+import SimpleUserForm from "./meeting15/coba/Post.jsx";
+import LoginAxios from "./meeting15/praktek/soal1.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Axioshop />
+    <LoginAxios />
   </StrictMode>
 );
