@@ -68,9 +68,11 @@ import SimpleUserForm from "./meeting15/coba/Post.jsx";
 import LoginAxios from "./meeting15/praktek/soal1.jsx";
 import AxiosStore2 from "./meeting15/praktek/soal2back2.jsx";
 import Axioshop2 from "./meeting15/praktek/soal2.jsx";
+import Login16 from "./meeting16/coba/cobaJWT.jsx";
+import Axioshop16 from "./meeting16/praktek/jwtpath.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Axioshop2 />
+    <Axioshop16 />
   </StrictMode>
 );
