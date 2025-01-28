@@ -4,7 +4,8 @@ import AxiosStore2 from "./soal2back2";
 import LoginMas from "./login2";
 import { ProductDetail } from "./soal2back2";
 import { Navigate } from "react-router-dom";
-import ProtectedRoute from "./protect";
+import 
+ProtectedRoute from "./protect";
 
 const router = createBrowserRouter([
   {
