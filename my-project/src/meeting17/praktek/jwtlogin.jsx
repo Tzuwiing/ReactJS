@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 const LoginMas = () => {
   const [email, setEmail] = useState("");
@@ -76,6 +76,14 @@ const LoginMas = () => {
           >
             Login
           </button>
+          <div className="text-center mt-6">
+            <p className="text-sm text-gray-600">
+              Belum punya akun?{" "}
+              <Link to="/help">
+                <a className="text-blue-500 hover:underline">Buat akun</a>
+              </Link>
+            </p>
+          </div>
         </form>
 
         {error && (
