@@ -20,7 +20,8 @@ export default function AxiosStore2() {
     const token = localStorage.getItem("authToken");
     if (token) {
       const decodedToken = jwtDecode(token);
-      setUsername(decodedToken.iat || "User");
+      console.log(decodedToken);
+      setUsername(decodedToken.sub || "User");
     }
   }, []);
 
