@@ -73,9 +73,10 @@ import Axioshop16 from "./meeting16/praktek/jwtpath.jsx";
 import Create from "./meeting17/praktek/createacc.jsx";
 import Axioshop17 from "./meeting17/praktek/jwtpath.jsx";
 import Menu from "./meeting17/praktek2/menu.jsx";
+import Axioshop18 from "./meeting18/praktek/jwtpath.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Menu />
+    <Axioshop18 />
   </StrictMode>
 );
