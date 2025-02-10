@@ -75,9 +75,12 @@ import Axioshop17 from "./meeting17/praktek/jwtpath.jsx";
 import Menu from "./meeting17/praktek2/menu.jsx";
 import Axioshop18 from "./meeting18/praktek/jwtpath.jsx";
 import Menu18 from "./meeting18/praktek2/menu.jsx";
+import Counterzus from "./meeting19/coba/cobazustand.jsx";
+import Countercafe from "./meeting19/praktek/soal1.jsx";
+import ToDoApp from "./meeting19/praktek/soal2.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Axioshop18 />
+    <ToDoApp />
   </StrictMode>
 );
