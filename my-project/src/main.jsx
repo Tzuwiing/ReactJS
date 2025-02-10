@@ -78,6 +78,6 @@ import Menu18 from "./meeting18/praktek2/menu.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Menu18 />
+    <Axioshop18 />
   </StrictMode>
 );
